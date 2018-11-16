@@ -1,2 +1,2 @@
 # IkamLampung
-Informasi Beasiswa Lampung (TUBES PABW)
+Info Kampus Lampung (TUBES PABW)
