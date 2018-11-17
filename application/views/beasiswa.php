@@ -24,13 +24,13 @@
 <div class="header">
     <div class="cont">
         <div class="logo">
-            <a href="test.php"> <img src="<?=base_url()?>assets/image/new.jpg"/></a>
+            <a href="<?php echo base_url()?>test.php/page"> <img src="<?=base_url()?>assets/image/new.jpg"/></a>
         </div>
         <div class="nav">
             <ul>
-                <li><a href="beasiswa.php">Beasiswa</a></li>
+                <li><a href="<?php echo base_url()?>beasiswa.php/page/">Beasiswa</a></li>
                 <li><a href="#">Tentang Kampus</a></li>
-                <li><a href="Bundle.php">Bundle Soal</a></li>
+                <li><a href=<?php echo base_url()?>"Bundle.php/page/">Bundle Soal</a></li>
                 <div class="search">
                     <input  type="text" name="user_query" placeholder="Search.."/>
                     <a href="#">
