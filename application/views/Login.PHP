@@ -1,4 +1,3 @@
-<!DOCTYPE HTML>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,7 +12,7 @@
 			<img src="<?=base_url()?>assets/image/ika.png">
 			</div> <br><br><br>
 			<div class="form-style-3">
-			<form action="<?php echo base_url('c_login/login'); ?>" method="post" >
+			<form action="#" method="post" >
 				<label for="field1">
 					<span> Username <span class="required">*</span></span>
 					<input type="username" class="input-field" name="username" value="">
