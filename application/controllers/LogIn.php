@@ -47,7 +47,7 @@ class LogIn extends CI_Controller
             } else {
                 $_SESSION['login'] = null;
             // Jika Password Salah
-                $this->load->view('v_LogIn', $data);
+                $this->load->view('Login', $data);
             }
         }
     }
