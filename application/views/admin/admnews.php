@@ -16,7 +16,7 @@
         <br></br>
         <tr>
             <td><b>Judul Artikel</b></td>
-            <td><input type="text" name="nama_barang" size="30" /></td>
+            <td><input type="text" name="judul" size="30" /></td>
         </tr>
         </tr>
         <tr>
@@ -26,12 +26,7 @@
 
         <tr>
             <td><b>Isi Artikel<b></td>
-            <td><textarea name="deskripsi_bea" cols="50" rows="5"/></textarea>
-            </td>
-        </tr>
-        <tr>
-            <td><b>Persyaratan</b></td>
-            <td><textarea name="deskripsi_prod" cols="50" rows="5"/></textarea>
+            <td><textarea name="artikel" cols="50" rows="5"/></textarea>
             </td>
         </tr>
         <tr align="center">

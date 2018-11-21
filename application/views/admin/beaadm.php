@@ -22,27 +22,16 @@
             <br></br>
             <tr>
                 <td><b>Nama Beasiswa</b></td>
-                <td><input type="text" name="nama_barang" size="30" /></td>
+                <td><input type="text" name="nama_beasiswa" size="30" /></td>
             </tr>
-            </tr>
-            <tr>
-                <td><b>Tanggal Penting Beasiswa</b></td>
-                <td><input type="date" name="bday"></td>
-            </tr>
-
             <tr>
                 <td><b>Deskripsi Beasiswa<b></td>
-                <td><textarea name="deskripsi_bea" cols="50" rows="5"/></textarea>
-                </td>
-            </tr>
-            <tr>
-                <td><b>Persyaratan</b></td>
-                <td><textarea name="deskripsi_prod" cols="50" rows="5"/></textarea>
+                <td><textarea name="deskripsi" cols="50" rows="5"/></textarea>
                 </td>
             </tr>
             <tr>
                 <td><b>Gambar </b></td>
-                <td><input type="file" name="img1 "/></td>
+                <td><input type="file" name="foto "/></td>
             </tr>
             <tr align="center">
                 <td colspan="2"><input type="submit" name="insert_product" value="Tambahkan"/></td>
