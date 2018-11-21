@@ -1,10 +1,4 @@
 <!doctype html>
-<!--/**-->
-<!-- * Created by PhpStorm.-->
-<!-- * User: ANGGREINI INTAN P-->
-<!-- * Date: 11/13/2018-->
-<!-- * Time: 9:55 AM-->
-<!-- */-->
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
