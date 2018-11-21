@@ -1,48 +1,10 @@
 <!doctype html>
 <html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <title>IkamLampung</title>
-
-    <link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
-    <link rel="stylesheet" href="<?=base_url()?>assets/bootstrap/bootstrap.css">
-
-    <link href="<?=base_url()?>assets/style/haladmin.css" rel="stylesheet">
-    <link href="<?=base_url()?>assets/style/beaadm.css" rel="stylesheet">
-
-</head>
+<?php $this->load->view('admin/head'); ?>
 <body>
-<nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
-    <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">InfoKampusLampung</a>
-    <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
-    <ul class="navbar-nav px-3">
-        <li class="nav-item text-nowrap">
-            <a class="nav-link" href="#">Sign out</a>
-        </li>
-    </ul>
-</nav>
+<?php $this->load->view('admin/navbar'); ?>
 
-<div class="container-fluid">
-    <div class="row">
-        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
-            <div class="sidebar-sticky">
-                <ul class="nav flex-column">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">
-                            <span data-feather="home"></span>
-                            Dashboard <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Beasiswa</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Hot News</a>
-                    </li>
-            </div>
-    </div>
-</div>
+<?php $this->load->view('admin/menu'); ?>
 
 
 <main role="main" class="col-md-9 ml-sm-auto col-lg-6">
