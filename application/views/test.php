@@ -117,8 +117,7 @@
 <!-- FOOTER -->
 <div class="foo">
         <p>&copy; 2018 IkamLampung</p>
-        <a href="#"><h5>Tentang Kami</h5></a>
-    </div>
+         </div>
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
