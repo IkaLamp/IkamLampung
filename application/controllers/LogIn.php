@@ -30,7 +30,7 @@ class LogIn extends CI_Controller
         if (($queryuser->result_array() == null) && ($querypass->result_array() == null)) {
             // Jika Username dan Password Salah
             $_SESSION['login'] = null;
-            $this->load->view('v_LogIn', $data);
+            $this->load->view('Login', $data);
         } else if ($queryuser->result_array() == null) {
             $_SESSION['login'] = null;
             // Jika Username Salah
