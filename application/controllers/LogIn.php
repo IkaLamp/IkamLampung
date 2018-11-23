@@ -44,6 +44,7 @@ class LogIn extends CI_Controller
                 $_SESSION['login'] = $queryuser['id'];
             // Jika Username dan Password Benar
                 $this->load->view('test', $data);
+		    redirect(base_url('beaadm'));
             } else {
                 $_SESSION['login'] = null;
             // Jika Password Salah
