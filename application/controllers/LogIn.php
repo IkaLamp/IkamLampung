@@ -34,7 +34,7 @@ class LogIn extends CI_Controller
         } else if ($queryuser->result_array() == null) {
             $_SESSION['login'] = null;
             // Jika Username Salah
-            $this->load->view('v_LogIn', $data);
+            $this->load->view('Login', $data);
         } else {
             foreach ($queryuser->result_array() as $queryuser) {
                 $user = $queryuser['username'];
@@ -47,7 +47,7 @@ class LogIn extends CI_Controller
             } else {
                 $_SESSION['login'] = null;
             // Jika Password Salah
-                $this->load->view('Login', $data);
+                $this->load->view('LogIn', $data);
             }
         }
     }
