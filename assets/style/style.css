@@ -165,11 +165,11 @@ body {
 .foo{
     width: 100% !important;
     background-color: coral;
-    height: 100px;
+    height: 60px;
 
 }
 .foo p {
-    padding-top: 50px;
+    padding-top: 20px;
 }
 .col-lg-4:hover{
     background-color: gainsboro;
