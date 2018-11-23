@@ -16,7 +16,7 @@
 <main role="main" class="col-md-9 ml-sm-auto col-lg-6">
     <h1>Beasiswa</h1>
 </main>
-    <form method= "post" action="beaadm.php" enctype="multipart/from-data">
+    <form method= "post" action="<?php echo base_url('Beadm/tambah'); ?>" enctype="multipart/from-data">
 
         <table width="900" align="center" border="0.5">
             <br></br>
@@ -25,16 +25,20 @@
                 <td><input type="text" name="nama_beasiswa" size="30" /></td>
             </tr>
             <tr>
+                <td><b>tanggal</b></td>
+                <td><input type="Date" name="Tanggal"></td>
+            </tr>
+            <tr>
                 <td><b>Deskripsi Beasiswa<b></td>
-                <td><textarea name="deskripsi" cols="50" rows="5"/></textarea>
+                <td><textarea name="profile" cols="50" rows="5"/></textarea>
                 </td>
             </tr>
             <tr>
                 <td><b>Gambar </b></td>
-                <td><input type="file" name="foto "/></td>
+                <td><input type="file" name="image "/></td>
             </tr>
             <tr align="center">
-                <td colspan="2"><input type="submit" name="insert_product" value="Tambahkan"/></td>
+                <td colspan="2"><input type="submit" name="submit" value="Tambah"></td>
             </tr>
 
         </table>

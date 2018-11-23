@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<?php $this->load->view('user/head'); ?>
+<?php $this->load->view('head'); ?>
     <link rel="stylesheet" href="<?=base_url()?>assets/css/styles-merged.css">
     <link rel="stylesheet" href="<?=base_url()?>assets/css/style.min.css">
     <link rel="stylesheet" href="<?=base_url()?>assets/css/custom.css">
-
-  <body>
-  <?php $this->load->view('user/menu'); ?>
+  
 
       <section class="probootstrap-section">
         <div class="container">

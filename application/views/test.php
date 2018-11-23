@@ -1,15 +1,4 @@
-<!DOCTYPE HTML>
-<!--/**-->
-<!-- * Created by PhpStorm.-->
-<!-- * User: ANGGREINI INTAN P-->
-<!-- * Date: 10/12/2018-->
-<!-- * Time: 3:38 PM-->
-<!-- */-->
-<html>
-<?php $this->load->view('user/head'); ?>
-
-<body>
-<?php $this->load->view('user/menu'); ?>
+<?php $this->load->view('head'); ?>
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -87,6 +76,7 @@
   <h2> <strong> HOT NEWS</strong></h2>
     <div class="row mb-3">
     <div class="col-lg-5">
+        
         <div class="card flex-md-row mb-4 box-shadow h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
                <h3 class="mb-0">
