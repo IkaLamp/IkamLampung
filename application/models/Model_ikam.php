@@ -8,9 +8,6 @@ class Model_ikam extends CI_Model {
 	function getKampus(){
 		return $data = $this->db->get('kampus');
 	}
-	function getHotNews(){
-		return $data = $this->db->get('hot_news');
-	}
 	function ambil($param_id, $id, $table)
 	{
 		return $this->db->get_where($table, array($param_id => $id));

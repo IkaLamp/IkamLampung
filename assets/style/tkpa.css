@@ -1,114 +1,190 @@
-.tahun{
+html,
+
+.header{
+    background: white;
     width: 100%;
-    height: 580px;
-    padding-top: 150px;
-    background-image: url('../image/1.jpg');;
+    top: 0;
+    position: fixed;
+    z-index: 10;
+    height: 70px;
 }
-
-#tahun1 {
-    font-size: 15px;
-    font-family: sans-serif;
-    box-shadow: 2px 10px 5px rgba(0,0,0,0.8);
-    margin-top: 100px;
-    border-radius: 10px;
-    width: 20%;
-    height: 100px;
-    background: #ff5a1d;
-    display: inline-block;
+.logo{
+    float: left;
+    margin-top: 20px;
     margin-left: 50px;
+    height: 150px;
+    width: 150px;
+    background-image: unset;
 }
-#tahun1 h1 {
-    text-align: center;
-    line-height: 100px;
-    color: white;
+.nav{
+    float: right;
 }
-#tahun1:hover{
-    background-color: #ff7050;
+.nav a{
+    color: darkslategray;
+    text-decoration: none;
+}
+.nav li{
+    font-size: 20px;
+    float: left;
+    margin-left: 20px;
+    list-style: none;
+    padding-top: 30px;
+    margin-right: 20px;
+}
+.search{
+    float: right;
+    height: 40px;
+    border: none;
+}
+.search input[type="text"]{
+    border: none;
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+    line-height: 40px;
+    outline-color: none;
+    margin-top: 20px;
+}
+.search a{
+    background: #00CC00;
+    margin-top: 50px;
+}
+.search i{
+    margin-top: 50px;
+}
+.fa-search{
+    margin-top: 30px;
+    padding-right: 10px;
+    float: right;
+}
+@media (min-width: 10px) and (max-width: 992px) {
+    .logo{
+        float: left;
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+    .header{
+        height: 70px;
+    }
+    .nav{
+        float: right;
+        margin-top: 10px;
+        font-size: 13px;
+        padding-left: -20px;
+    }
+    .search{
+        margin-top:-5px;
+    }
+    .fa-search{
+        margin-top: 30px;
+        padding-left: 5px;
+        padding-left: 5px;
+        float: left;
+    }
+    
+
+    .nav-next, .nav-arrow, .nav-arrow label{
+            float: right;
+            margin-right: 520px;
+            margin-top: 20px;
+                    }
 }
 
-#tahun2{
-    font-size: 15px;
-    font-family: sans-serif;
-    box-shadow: 2px 10px 5px rgba(0,0,0,0.8);
-    border-radius: 10px;
-    width: 20%;
-    height: 100px;
-    background: #ff6c37;
-    display: inline-block;
-    margin-left: 50px;
-    margin-top: 100px;
-}
-#tahun2 h1{
-    text-align: center;
-    line-height: 100px;
-    color: white;
-}
-#tahun2:hover{
-    background-color: #ff7f50;
-}
-#tahun3{
-    font-size: 15px;
-    font-family: sans-serif;
-    box-shadow: 2px 10px 5px rgba(0,0,0,0.8);
-    border-radius: 10px;
-    width: 20%;
-    height: 100px;
-    background: #ff7f50;
-    display: inline-block;
-    margin-left: 50px;
-    color: white;
-    margin-top: 100px;
-}
-#tahun3 h1{
-    text-align: center;
-    line-height: 100px;
+* {
+    padding:0;
+    margin:0;
 }
 
-#tahun3:hover{
-    background-color: #ff8e50;
+img {
+    max-width: 100%;
+    height: auto;
+    border-style: none;
 }
+ul,ol {
+    list-style-type: none;
+}
+/* end css reset */
 
-#tahun4{
-    font-size: 15px;
-    font-family: sans-serif;
-    box-shadow: 2px 10px 5px rgba(0,0,0,0.8);
-    border-radius: 10px;
-    width: 20%;
-    height: 100px;
-    background: #ff926a;
-    display: inline-block;
-    margin-left: 50px;
-    color: white;
-    margin-top: 100px;
+.footer{
+    width: auto;
+    height: 30px;
+    background-color: #22222;
 }
-#tahun4 h1{
+.footer h5 {
+    padding-top: 80px;
+    margin-left: 550px;
+    color: whitesmoke;
+    position: center;
+}
+a{
     text-align: center;
-    line-height: 100px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:hover{
+    color: gainsboro;
 }
 
-#tahun4:hover{
-    background-color: #ff9c50;
+body {
+    width: 100%;
+    height: 900px;
+    margin: auto;
+    background-color: grey;
 }
+
 
 .daftar{
-    margin-top: 50px;
-    text-align: left;
-    margin-left: 40px;
-}
-.table a{
-     color:  #5a6268;
- }
-
-table, td, th {
-    border: 1px solid #ddd;
-    text-align: left;
+    width: 100%;
+    height: 500px;
+    padding-top: 150px;
+    background-color: #f1f1f1;
 }
 
-table {
-    border-collapse: collapse;
-    width: 90%;
+.table{
+    width: 50%;
+    height: 500px;
+    padding: 50px;
 }
 
-th, td {
-    padding: 10px;
-}
+
+      #outtable{
+        padding: 20px;
+        border:1px solid #e3e3e3;
+        width:600px;
+        border-radius: 5px;
+      }
+ 
+      .short{
+        width: 50px;
+      }
+ 
+      .normal{
+        width: 150px;
+      }
+      table{
+        border-collapse: collapse;
+        font-family: arial;
+        color:#5E5B5C;
+      }
+ 
+      thead th{
+        text-align: left;
+        padding: 10px;
+      }
+ 
+      tbody td{
+        border-top: 1px solid #e3e3e3;
+        padding: 10px;
+      }
+      tbody td a{
+        color:green;
+        text-decoration: underline;
+      }
+ 
+      tbody tr:nth-child(even){
+        background: #F6F5FA;
+      }
+ 
+      tbody tr:hover{
+        background: #EAE9F5
+      }
