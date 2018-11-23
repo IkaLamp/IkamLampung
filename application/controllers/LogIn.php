@@ -20,7 +20,7 @@ class LogIn extends CI_Controller
      */
     public function index()
     {
-		$this->load->view('v_LogIn');
+		$this->load->view('Login');
     }
     function procLogin(){
         extract($_POST);
@@ -43,7 +43,7 @@ class LogIn extends CI_Controller
             if ($password == $pass) {
                 $_SESSION['login'] = $queryuser['id'];
             // Jika Username dan Password Benar
-                $this->load->view('test', $data);
+                $this->load->view('beaadm', $data);
             } else {
                 $_SESSION['login'] = null;
             // Jika Password Salah
