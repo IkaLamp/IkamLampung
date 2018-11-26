@@ -1,7 +1,4 @@
 <?php
-/**
- *
- */
 class Cadmin extends CI_Controller{
 
   function __construct(){

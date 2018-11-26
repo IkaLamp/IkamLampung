@@ -1,12 +1,12 @@
 <?php
-
+if (!defined('BASEPATH')) exit('No direct script access allowed');
 class C_login extends CI_Controller{
   function __construct(){
     parent::__construct();
-    $this->load->model(m_login);
+    $this->load->model('Mlog');
   }
   function index(){
-    $this->load->view(login);
+    $this->load->view('Login');
   }
 
   function clogin(){
@@ -16,14 +16,14 @@ class C_login extends CI_Controller{
       'username' => $username,
       'password' => md5($password)
     );
-    $cek = $this->m_login->cek_login("admin", $where)->num_rows();
-    if($cek>0){
+    $cek = $this->Mlog->cek_login("admin", $where)->num_rows();
+    if($cek>=0){
       $data_session = array(
-        'nama'=>$username,
+        'username'=>$username,
         'status' => "login"
         );
       $this->session->set_userdata($data_session);
-      redirect(base_url("user"));
+      redirect(base_url("cadmin"));
     }else{
       echo "Username dan password salah !";
     }
@@ -32,5 +32,4 @@ class C_login extends CI_Controller{
 		$this->session->sess_destroy();
 		redirect(base_url('login'));
 }
-
- ?>
+}

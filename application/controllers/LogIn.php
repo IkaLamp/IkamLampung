@@ -20,7 +20,7 @@ class LogIn extends CI_Controller
      */
     public function index()
     {
-		$this->load->view('Login');
+		$this->load->view('v_LogIn');
     }
     function procLogin(){
         extract($_POST);
@@ -30,11 +30,11 @@ class LogIn extends CI_Controller
         if (($queryuser->result_array() == null) && ($querypass->result_array() == null)) {
             // Jika Username dan Password Salah
             $_SESSION['login'] = null;
-            $this->load->view('Login', $data);
+            $this->load->view('v_LogIn', $data);
         } else if ($queryuser->result_array() == null) {
             $_SESSION['login'] = null;
             // Jika Username Salah
-            $this->load->view('Login', $data);
+            $this->load->view('v_LogIn', $data);
         } else {
             foreach ($queryuser->result_array() as $queryuser) {
                 $user = $queryuser['username'];
@@ -43,11 +43,11 @@ class LogIn extends CI_Controller
             if ($password == $pass) {
                 $_SESSION['login'] = $queryuser['id'];
             // Jika Username dan Password Benar
-                $this->load->view('beaadm', $data);
+                $this->load->view('test', $data);
             } else {
                 $_SESSION['login'] = null;
             // Jika Password Salah
-                $this->load->view('LogIn', $data);
+                $this->load->view('Login', $data);
             }
         }
     }
