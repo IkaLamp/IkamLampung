@@ -89,4 +89,19 @@
 #tahun4:hover{
     background-color: #ff9c50;
 }
-
+.foo{
+    width: auto;
+    height: 40px;
+    background-color: coral;
+}
+.foo p{
+    padding-top: 10px;
+}
+a{
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:hover{
+    color: gainsboro;
+}
