@@ -597,7 +597,8 @@ pre code {
 
 }
 .fa-thumbs-up, .fa-check-double, .fa-star{
-    margin-left: 5px;
+    margin-left: 42%;
+    margin-right: -50px;
     margin-bottom: 20px;
 }
 .row {
@@ -606,8 +607,8 @@ pre code {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -60px;
-    margin-left: -40px;
+    margin-right: -10px;
+    margin-left: -10px;
 }
 
 .no-gutters {
@@ -647,6 +648,22 @@ pre code {
     -ms-flex-positive: 1;
     flex-grow: 1;
     max-width: 100%;
+}
+
+.coll {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    margin-left: 35%;
+}
+.coll a{
+    color: coral;
+}
+.coll a:hover{
+    color: whitesmoke;
 }
 
 .col-auto {
@@ -1316,6 +1333,12 @@ pre code {
         -ms-flex: 0 0 33.333333%;
         flex: 0 0 33.333333%;
         max-width: 33.333333%;
+    }
+    .col-lg-4 p{
+        margin-left: 20px;
+    }
+    .col-lg-4 h2{
+        text-align: center;
     }
     .jdul h2 {
         margin-left: 45%;
@@ -5851,7 +5874,7 @@ button.close {
     position: relative;
 }
 
-.carousel-inner {
+.carousel-item {
     position: relative;
     width: 100%;
     overflow: hidden;
