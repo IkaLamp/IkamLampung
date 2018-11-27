@@ -38,47 +38,20 @@
     </div>
 
  
-<div class="daftar">
-    <div class="table">
-        <H1>Soal Soshum</H1> <br><br>
-            <table border="1">
-        <tr>
-            <th>No</th>
-            <th>Tahun</th>
-            <th>Keterangan</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>2012</td>
-            <td><a href="#"> download</a></td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>2013</td>
-            <td><a href="#">download</a></td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>2014</td>
-            <td><a href="#">download</a></td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>2015</td>
-            <td><a href="#">download</a></td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>2016</td>
-            <td><a href="#">download</a></td>
-        </tr>
-    </table>
-</body>
+<div class="tahun">
+     <div id="tahun1">
+         <a href="<?php echo base_url('2014');?>"> <H1>2015</H1></a>
+     </div>
+     <div id="tahun2">
+         <a href="#"><H1>2016</H1></a>
+     </div>
+     <div id="tahun3">
+         <a href="#"><H1>2017</H1></a>
+     </div>
+     <div id="tahun4">
+         <a href="#"><H1>2018</H1></a>
+     </div>
 </div>
-
-
-        
-    </div>
     
 
 
