@@ -13,9 +13,10 @@
      </div>
  </div>
 
- <div class="footer">
-     <p>&copy; 2018 IkamLampung</p>
- </div>
+<!-- FOOTER -->
+<div class="foo">
+        <p>&copy; 2018 IkamLampung</p>
+         </div>
 
 
 
