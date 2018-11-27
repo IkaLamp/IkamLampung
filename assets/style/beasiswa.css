@@ -1,11 +1,8 @@
-
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
     color: #4e555b;
 }
-
-
 .header{
     background: white;
     width: 100%;
@@ -49,7 +46,7 @@ body {
     margin-right: 20px;
     line-height: 40px;
     outline-color: none;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 .search a{
     background: #00CC00;
@@ -70,7 +67,7 @@ h3 {
 .row {
     margin-bottom: 1rem;
 }
-.row .row {
+.row {
     margin-top: 1rem;
     margin-bottom: 0;
 }
@@ -86,10 +83,40 @@ hr {
     margin-bottom: 2rem;
 }
 .container h1{
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom:20px ;
 }
+h1{
+    text-align: center;
+    margin-left: 50px;
+}
+.apa img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 50%;
+}
+.konten{
+    margin-right: 15%;
+    margin-left: 15%;
+    padding: 50px;
+    color: #818182;
+}
+.konten p{
+    font-size: 25px;
+}
 
+.konten1{
+    margin-right: 15%;
+    margin-left: 15%;
+    padding: 50px;
+    color: #818182;
+    border-bottom: 1px solid red;
+}
+.konten1 p{
+    font-size: 25px;
+}
 #customers {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
@@ -111,8 +138,4 @@ hr {
     text-align: left;
     background-color: #4CAF50;
     color: white;
-}
-
-.align-content-center h1{
-    margin-top: 50px;
 }
