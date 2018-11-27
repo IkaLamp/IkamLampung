@@ -90,25 +90,3 @@
     background-color: #ff9c50;
 }
 
-.daftar{
-    margin-top: 50px;
-    text-align: left;
-    margin-left: 40px;
-}
-.table a{
-     color:  #5a6268;
- }
-
-table, td, th {
-    border: 1px solid #ddd;
-    text-align: left;
-}
-
-table {
-    border-collapse: collapse;
-    width: 90%;
-}
-
-th, td {
-    padding: 10px;
-}
