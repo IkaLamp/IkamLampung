@@ -61,4 +61,6 @@
 <div class="foo">
         <p>&copy; 2018 IkamLampung</p>
          </div>
-</html>
+
+    </body>  
+  </html>
