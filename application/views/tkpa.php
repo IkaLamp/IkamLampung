@@ -56,5 +56,9 @@
      </div>
 </div>
 
-</body>
+    
+    <!-- FOOTER -->
+<div class="foo">
+        <p>&copy; 2018 IkamLampung</p>
+         </div>
 </html>
