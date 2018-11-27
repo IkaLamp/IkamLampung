@@ -1,110 +1,3 @@
-body {
-    padding-top: 3rem;
-    color: white;
-}
-
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
-.carousel {
-    margin-bottom: 4rem;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-    bottom: 3rem;
-    z-index: 10;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel-item {
-    height: 32rem;
-    background-color: #777;
-}
-.carousel-item > img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    height: 32rem;
-}
-
-
-/* MARKETING CONTENT
--------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-    margin-bottom: 1.5rem;
-    text-align: center;
-
-}
-.marketing h2 {
-    font-weight: 400;
-
-}
-.marketing .col-lg-4 p {
-    margin-right: .75rem;
-    margin-left: .75rem;
-}
-
-
-/* Featurettes
-------------------------- */
-
-.featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
-}
-
-/* Thin out the marketing headings */
-.featurette-heading {
-    font-weight: 300;
-    line-height: 1;
-    letter-spacing: -.05rem;
-}
-
-
-/* RESPONSIVE CSS
--------------------------------------------------- */
-
-@media (min-width: 40em) {
-    /* Bump up size of carousel content */
-    .carousel-caption p {
-        margin-bottom: 1.25rem;
-        font-size: 1.25rem;
-        line-height: 1.4;
-    }
-    .featurette-heading {
-        font-size: 50px;
-    }
-    .cont{
-        margin-bottom: 50px;
-        margin-top: 5px;
-    }
-    .nav li{
-        margin-top: -5px;
-        margin-bottom: 100px;
-        font-size: 12px;
-        margin-left: -10px;
-        margin-right: 10px;
-    }
-    .search input[type="text"]{
-        margin-top: 20px;
-    }
-    .search{
-        margin-top: -8px;
-    }.fa-search {
-        height: 30px;
-        width: 30px;
-        margin-top: -10px;
-         }
-}
-@media (min-width: 62em) {
-    .featurette-heading {
-        margin-top: 7rem;
-    }
-}
 .header{
     background: white;
     width: 100%;
@@ -115,15 +8,11 @@ body {
 }
 .logo{
     float: left;
-    margin-top: 5px;
+    margin-top: 20px;
     margin-left: 50px;
     height: 100px;
-    width: 200px;
+    width: 150px;
     background-image: unset;
-}
-.logo img{
-    width: 130px;
-    height: 50px;
 }
 .nav{
     float: right;
@@ -133,12 +22,12 @@ body {
     text-decoration: none;
 }
 .nav li{
+    font-size: 15px;
     float: left;
     margin-left: 20px;
     list-style: none;
     padding-top: 30px;
     margin-right: 20px;
-    font-size: 15px;
 }
 .search{
     float: right;
@@ -148,38 +37,225 @@ body {
 .search input[type="text"]{
     border: none;
     float: left;
-    width: 100px;
+    width: 200px;
     margin-right: 20px;
     line-height: 40px;
     outline-color: none;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 .search a{
     background: #00CC00;
     margin-top: 50px;
 }
 .search i{
-    margin-top: 50px;}
-
+    margin-top: 50px;
+}
 .fa-search{
-    margin-top: 30px;
-    padding-right: 20px;
+    margin-top: 10px;
+    padding-right: 10px;
     float: right;
 }
-.foo{
+@media (min-width: 10px) and (max-width: 992px) {
+    .logo{
+        float: left;
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+    .header{
+        height: 70px;
+    }
+    .nav{
+        float: right;
+        margin-top: 10px;
+        font-size: 13px;
+        padding-left: -20px;
+    }
+    .search{
+        margin-top:-5px;
+    }
+    .fa-search{
+        margin-top: 30px;
+        padding-left: 5px;
+        padding-left: 5px;
+        float: left;
+    }
+    .slide ul{
+       width:100px;
+        height: 100px;
+    }
+    .container, ul.slide li img{
+        width:300px;
+        height: 200px;
+        padding-top: 10px;
+    }
+    .slide-1,.slide-2,.slide-3,.slide-4{
+              height: 565px;
+              width: 780px;
+              margin-top: 40px;
+          }.nav-next, .nav-arrow, .nav-arrow label{
+            float: right;
+            margin-right: 520px;
+            margin-top: 20px;
+                    }
+}
+
+cont{
+    width: 960px;
+    margin: 0 auto;
+}
+* {
+    padding:0;
+    margin:0;
+}
+
+img {
+    max-width: 100%;
+    height: 10px;
+    border-style: none;
+}
+ul,ol {
+    list-style-type: none;
+}
+/* end css reset */
+
+.carousel-inner img{
+    height: 500px;
     width: 100% !important;
-    background-color: coral;
-    height: 60px;
+}
+.containerr { /* posisikan letak slidernya */
+    margin:7% auto;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0;
 
 }
-.foo p {
-    padding-top: 20px;
+.col h2{
+    margin-top: 0;
+    margin-left: 33%;
 }
-.col-lg-4:hover{
-    background-color: gainsboro;
+.col p{
+    padding-left: 60px;
 }
-.col-lg-4:hover{
-    background-color: gainsboro;
+.container, ul.slide li img{
+    width:1300px;
+    height: 600px;
+}
+
+ul.slide {
+    position: absolute;
+    display: block;
+    width:400%;  /* <-- Angka 3 Bergantung pada jumlah slide */
+}
+.caption { /* styling untuk deskripsi setiap slide */
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    bottom:0;
+    padding:10px;
+    color:#fff;
+    left: 0;
+    right: 0;
+}
+/* Yang membuatnya jadi slider */
+ul.slide li {
+    display: inline-block;
+    float: left;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    ox-sizing:border-box;
+    -webkit-transition: -webkit-transform 2000ms;
+    -moz-transition: -moz-transform 2000ms;
+    transition: -webkit-transform 2000ms, transform 2000ms;
+
+}
+ul.slide li.slide-1 {
+    left: 0%;
+}
+ul.slide li.slide-2 {
+    left: 100%;
+}
+ul.slide li.slide-3 {
+    left: 200%;
+}
+ul.slide li.slide-4 {
+    left: 300%;
+}
+#nav-1:checked ~ ul.slide li{
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    transform: translateX(0%);
+}
+#nav-2:checked ~ ul.slide li{
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+#nav-3:checked ~ ul.slide li {
+    -webkit-transform: translateX(-200%);
+    -moz-transform: translateX(-200%);
+    transform: translateX(-200%);
+}
+#nav-4:checked ~ ul.slide li {
+    -webkit-transform: translateX(-300%);
+    -moz-transform: translateX(-300%);
+    transform: translateX(-300%);
+}
+/* End, yang membuatnya jadi slider */
+
+/* Navigator */
+.radio-nav { /* menghilangkan radio button */
+    display: none;
+}
+/* styling untuk tombol next dan previous slide */
+.nav-arrow {
+    position: absolute;
+    top:45%;
+    width:50px;
+    height: 50px;
+}
+.nav-next {
+    right:10px;
+}
+.nav-prev {
+    left:10px;
+}
+.nav-arrow label {
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    transition:all 0.3s;
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    padding:15px 20px;
+    cursor: pointer;
+    z-index: 1;
+    opacity: 0;
+    font-weight: bold;
+    line-height: 1;
+}
+.container:hover .nav-arrow label{
+    background-color: rgba(0,0,0,0.8);
+}
+/* end styling untuk tombol next dan previous slide */
+/*Setiap slide mempunya tombol prev dan next-nya masing-masing. Nah, tampilkan tombol yang tepat dengan kode dibawah ini*/
+#nav-1:checked ~ .nav-prev label.nav-3,
+#nav-1:checked ~ .nav-next label.nav-2,
+#nav-2:checked ~ .nav-prev label.nav-1,
+#nav-2:checked ~ .nav-next label.nav-3,
+#nav-3:checked ~ .nav-prev label.nav-2,
+#nav-3:checked ~ .nav-next label.nav-4,
+#nav-4:checked ~ .nav-prev label.nav-3,
+#nav-4:checked ~ .nav-next label.nav-1 {
+    z-index: 4;
+    opacity: 1;
+}
+.bawah{
+    width: auto;
+    height: 250px;
+    margin-top: 30px;
+    background-color: white;
+    position: relative;
 }
 .gambar{
     float: left;
@@ -188,10 +264,8 @@ body {
     margin-right: 50px;
 }
 .hotnews{
-    width: 100%;
+    width: auto;
     height: 400px;
-    margin-left: 0;
-    margin-right: 0;
     margin-top: 0;
     background-color: whitesmoke;
     position: relative;
@@ -200,6 +274,10 @@ body {
     padding-top: 30px;
     height: 20px;
     position: center;
+}
+.text h1{
+    text-align: center;
+    padding-top: 20px;
 }
 .text h3{
     text-align: center;
@@ -215,3 +293,20 @@ body {
     height: 20px;
     position: relative;
 }
+.foo{
+    width: auto;
+    height: 40px;
+    background-color: coral;
+}
+.foo p{
+    padding-top: 10px;
+}
+a{
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:hover{
+    color: gainsboro;
+}
+
