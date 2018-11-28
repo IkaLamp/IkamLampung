@@ -13,17 +13,13 @@
     <link rel="stylesheet" href="<?=base_url()?>assets/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="<?=base_url()?>assets/css/styles-merged.css">
     <link rel="stylesheet" href="<?=base_url()?>assets/css/style.min.css">
-    <link rel="stylesheet" href="<?=base_url()?>assets/css/custom.css">    
-    <link rel="stylesheet" type="text/css"href="<?=base_url()?>assets/style/tkpa.css">    
-    <link rel="stylesheet" type="text/css"href="<?=base_url()?>assets/style/saintek.css">
-
-
+    <link rel="stylesheet" href="<?=base_url()?>assets/css/custom.css">
 </head>
 <body>
 <div class="header">
     <div class="cont">
         <div class="logo">
-            <a href="#"> <img src="<?=base_url()?>assets/image/ika.png"/></a>
+            <a href="<?php echo base_url('Ikam')?>"> <img src="<?=base_url()?>assets/image/ika.png"/></a>
         </div>
         <div class="nav">
             <ul>
