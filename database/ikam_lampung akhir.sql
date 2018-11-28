@@ -108,7 +108,7 @@ INSERT INTO `bundel` (`id_soal`, `tipe_soal`, `tahun_soal`) VALUES
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `hot news`
+-- Struktur dari tabel `hot_news`
 --
 
 CREATE TABLE `hot_news` (
@@ -142,16 +142,16 @@ CREATE TABLE `info_kampus` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data untuk tabel `info kampus`
+-- Dumping data untuk tabel `info_kampus`
 --
 
 INSERT INTO `info_kampus` (`id_kampus`, `nama_kampus`, `image`, `profile`) VALUES
 (101, 'UNIVERSITAS LAMPUNG (UNILA)', 'unila', 'Terdapat 57 Program Strata Satu (S1) di Kampus Hijau Universitas Lampung (Unila) Seluruhnya tersebar di delapan fakultas yakni_Fakultas Ekonomi dan Bisnis (FEB) Fakultas Ilmu Sosial dan Ilmu Politik (FISIP)_Fakultas Hukum (FH) Fakultas Keguruan dan Ilmu Pendidikan (FKIP) Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA) Fakultas Pertanian (FP) Fakultas Teknik (FT) dan Fakultas_Kedokteran (FK).'),
-(102, 'INSTITUT TEKNOLOGI SUMATERA (ITERA)', 'ITERA', 'Institut_Teknologi_Sumatera_(ITERA)_adalah_sebuah_perguruan_tinggi_negeri_yang_berkedudukan_di_antara_Kabupaten_Lampung_Selatan_dengan_Kota_Bandar_Lampung_ITERA_didirikan_berdasarkan_Peraturan_Presiden_Nomor_124_Tahun_2014_tentang_Pendirian_Institut_Teknologi_Sumatera_(Lembaran_Negara_Republik_Indonesia_Tahun_2014_Nomor_253)_yang_ditetapkan_Presiden_Republik_Indonesia_Dr.H.Susilo_Bambang_Yudhoyono_pada_tanggal_6_Oktober_2014_dan_diundangkan_tanggal_9_Oktober_2014._Walaupun_peresmiannya_dilaksanakan_pada_tahun_2014_namun_ITERA_sudah_memulai_kegiatan_akademik_dengan_menerima_mahasiswa_baru_sejak_tahun_2012-2013._Selain_ITB_dan_ITS,_dengan_dibukanya_ITERA_dan_Institut_Teknologi_Kalimantan,_kini_pemerintah_Indonesia_memiliki_empat_institut_teknologi.'),
-(103, 'UIN_LAMPUNG', 'UIN_LAMPUNG', 'Universitas_Islam_Negeri_Raden_Intan_Lampung_atau_yang_dulu_disebut_dengan_IAIN_Raden_Intan_Bandar_Lampung_adalah_Perguruan_Tinggi_Islam_Negeri_yang_berada_di_kelurahan_/_kecamatan_Sukarame,_Bandar_Lampung,_kota_Bandar_Lampung_provinsi_Lampung. '),
-(104, 'POLITEKNIK_KESEHATAN_TANJUNG_KARANG', 'poltekes', 'Politeknik_Kesehatan_Tanjung_Karang_adalah_universitas_negeri_Unit_Pelaksana_Teknis_Kemenkes_RI_dibawah_dan_bertanggung_jawab_kepada_Kepala_Badan_Pengembangan_dan_Pemberdayaan_Sumber_Daya_Manusia_Kesehatan_yang_berada_di_Kota_Bandar_Lampung,_Provinsi_Lampung,_Indonesia.'),
-(105, 'POLITEKNIK_NEGR_ LAMPUNG', 'POLINELA', 'POLINELA_adalah_Perguruan_Tinggi_Negeri_di_Provinsi_Lampung_yang_menyelenggarakan_pendidikan_vokasi_untuk_menciptakan_lulusan_ahli_madya_dan_sarjana_terapan_berjiwa_disiplin,_mandiri_dan_profesional_di-Indonesia. '),
-(106, 'UM_BANDAR_LAMPUNG', 'UM_LAMPUNG', 'Universitas_Muhammadiyah_Lampung_beralamat_di:Jl._H. _Zainal_Abidin_Pagar_Alam_No.14_Kel_Labuhan_Ratu,_Kec_Kedaton,_Kota_Bandar_Lampung-35142._Telp_/Fax_0721701246_E-mail:_humas.umlampung@gmail.com');
+(102, 'INSTITUT TEKNOLOGI SUMATERA (ITERA)', 'ITERA', 'Institut Teknologi Sumatera (Itera) adalah sebuah perguruan tinggi negeri yang berkedudukan di antara Kabupaten Lampung Selatandengan Kota Bandar Lampung ITERA didirikan berdasarkan Peraturan Presiden Nomor 124 Tahun 2014 tentang Pendirian Institut Teknologi Sumatera (Lembaran Negara Republik Indonesia Tahun 2014 Nomor 253) yang ditetapkan Presiden Republik Indonesia Dr.H.Susilo Bambang Yudhoyono pada tanggal 6 Oktober 2014 dan diundangkan tanggal 9 Oktober 2014. Walaupun peresmiannya dilaksanakan pada tahun 2014 namun ITERA sudah memulai kegiatan akademik dengan menerima mahasiswa baru sejak tahun 2012-2013.Selain ITB dan ITS, dengan dibukanya ITERA dan Institut Teknologi Kalimantan, kini pemerintah Indonesia memiliki empat institut teknologi.'),
+(103, 'UIN LAMPUNG', 'UIN LAMPUNG', 'Universitas Islam Negeri Raden Intan Lampung atau yang dulu disebut dengan IAIN Raden Intan Bandar Lampung adalah Perguruan Tinggi Islam Negeri yang berada di kelurahan / kecamatan Sukarame, Bandar Lampung, kota Bandar Lampung provinsi Lampung. '),
+(104, 'POLITEKNIK_KESEHATAN_TANJUNG_KARANG', 'poltekes', 'Politeknik Kesehatan Tanjung Karang adalah universitas negeri Unit Pelaksana Teknis Kemenkes RI dibawah dan bertanggung jawab kepada Kepala Badan Pengembangan dan Pemberdayaan Sumber Daya Manusia Kesehatan yang berada di Kota Bandar Lampung,Provinsi Lampung,Indonesia.'),
+(105, 'POLITEKNIK_NEGR_ LAMPUNG', 'POLINELA', 'POLINELA adalah Perguruan Tinggi Negeri di Provinsi Lampung yang menyelenggarakan pendidikan vokasi untuk menciptakan lulusan ahli madya dan sarjana terapan berjiwa disiplin,mandiri dan profesional di Indonesia.'),
+(106, 'UM_BANDAR_LAMPUNG', 'UM_LAMPUNG', 'Universitas Muhammadiyah Lampung beralamat di:Jl. H. Zainal Abidin Pagar Alam No.14 Kel labuhan Ratu, Kec. Kedaton, Kota Bandar Lampung-35142. Telp/Fax 0721701246 E-mail: humas.umlampung@gmail.com');
 
 --
 -- Indexes for dumped tables
@@ -204,7 +204,7 @@ ALTER TABLE `hot_news`
   MODIFY `id_hot_news` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=604;
 
 --
--- AUTO_INCREMENT for table `info kampus`
+-- AUTO_INCREMENT for table `info_kampus`
 --
 ALTER TABLE `info_kampus`
   MODIFY `id_kampus` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=107;
