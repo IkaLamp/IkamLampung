@@ -1,41 +1,38 @@
-<?php $this->load->view('head'); ?>
+ <?php $this->load->view('head'); ?>
     <link rel="stylesheet" href="<?=base_url()?>assets/css/styles-merged.css">
     <link rel="stylesheet" href="<?=base_url()?>assets/css/style.min.css">
-    <link rel="stylesheet" href="<?=base_url()?>assets/css/custom.css">
+    <link rel="stylesheet" href="<?=base_url()?>assets/css/style.css">
   
 
       <section class="probootstrap-section">
         <div class="container">
-
           <div class="row">
             <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate">
-              <a href="#" class="probootstrap-featured-news-box">
+              <a href="https://www.unila.ac.id/en/" class="probootstrap-featured-news-box">
                <figure class="probootstrap-media"><img src="<?=base_url()?>assets/image/UNILA.png" class="img-responsive" width="20000" hight="8000"></figure>
                 <div class="probootstrap-text">
                   <h3>Universitas Lampung adalah universitas negeri pertama dan tertua di Provinsi Lampung, Indonesia.</h3>
-                  <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
-                  <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
+                  <span href="https://www.unila.ac.id/en/">Lanjutkan membaca</span>
                 </div>
               </a>
             </div>
+
             <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate">
-              <a href="#" class="probootstrap-featured-news-box">
+              <a href="http://www.itera.ac.id/en/" class="probootstrap-featured-news-box">
                <figure class="probootstrap-media"><img src="<?=base_url()?>assets/image/itera2.jpg" class="img-responsive" width="20000" hight="8000"></figure>
                 <div class="probootstrap-text">
-                  <h3>TInstitut Teknologi Sumatera adalah sebuah perguruan tinggi negeri yang berkedudukan di antara Kabupaten Lampung Selatan dengan Kota Bandar Lampung.</h3>
-                  <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
-                  <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
+                  <h3>Institut Teknologi Sumatera adalah sebuah perguruan tinggi negeri yang berkedudukan di antara Kabupaten Lampung Selatan dengan Kota Bandar Lampung.</h3>
+                  <span href="#">Lanjutkan membaca</span>
                 </div>
               </a>
             </div>
             <div class="clearfix visible-sm-block visible-xs-block"></div>
             <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate">
-              <a href="#" class="probootstrap-featured-news-box">
-                <figure class="probootstrap-media"><img src="<?=base_url()?>assets/image/poltekes.jpg" class="img-responsive" width="20000" hight="8000"></figure>
+                <img src="<?=base_url()?>assets/image/poltekes.jpg" class="img-responsive"></img>
+              <a href="http://www.poltekkes-tjk.ac.id/" class="probootstrap-featured-news-box">
                 <div class="probootstrap-text">
                   <h3>Politeknik Kesehatan Tanjung Karang (atau disingkat Poltekkes Tanjung Karang) adalah universitas negeri Unit Pelaksana Teknis Kemenkes RI.</h3>
-                  <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
-                  <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
+                  <span href="#">Lanjutkan membaca</span>
                 </div>
               </a>
             </div>
@@ -43,18 +40,17 @@
             <div class="clearfix visible-md-block"></div>
 
             <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate">
-              <a href="#" class="probootstrap-featured-news-box">
+              <a href="https://www.polinela.ac.id/" class="probootstrap-featured-news-box">
                 <figure class="probootstrap-media"><img src="<?=base_url()?>assets/image/polinela.jpg" class="img-responsive" width="20000" hight="8000"></figure>
                 <div class="probootstrap-text">
                   <h3>Perguruan Tinggi Negeri di Provinsi Lampung yang menyelenggarakan pendidikan vokasi untuk menciptakan lulusan ahli madya dan sarjana terapan berjiwa disiplin, mandiri dan profesional di Indonesia</h3>
-                  <span class="probootstrap-date"><i class="icon-calendar"></i>July 9, 2017</span>
-                  <span class="probootstrap-location"><i class="icon-location2"></i>White Palace, Brooklyn, NYC</span>
+                  <span href="#">Lanjutkan membaca</span>
                 </div>
               </a>
             </div>
             <div class="clearfix visible-sm-block visible-xs-block"></div>
 
-            <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate">
+            <!-- <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate">
               <a href="#" class="probootstrap-featured-news-box">
                 <figure class="probootstrap-media"><img src="<?=base_url()?>assets/image/UNILA.png" class="img-responsive" width="20000" hight="8000"></figure>
                 <div class="probootstrap-text">
@@ -65,7 +61,7 @@
               </a>
             </div>
             <div class="clearfix visible-sm-block visible-xs-block"></div>
-
+ -->
           </div>
         </div>
       </section>
