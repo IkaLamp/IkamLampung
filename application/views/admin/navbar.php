@@ -5,8 +5,7 @@
             <ul class="nav">
                 <li class="nav-item px-3">
                     <a class="nav-link active" href="<?php echo base_url('cadmin'); ?>">
-                        <span data-feather="home"></span>
-                        Dashboard <span class="sr-only">(current)</span>
+                        Beranda <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item px-3">
