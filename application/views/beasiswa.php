@@ -3,18 +3,21 @@
 <div class="container">
     <br>
     <br>
-    <h1 class="align-content-center">DAFTAR BEASISWA</h1>
+    <br>
+    <br>
+    <br>
+    <h1 class="apa">DAFTAR BEASISWA</h1>
 
            <?php foreach ($beasiswa as $be):?>
-            <div class="card-body d-flex flex-column align-items-start">
-                <img class="card-img-right flex-auto d-none d-md-block" src="<?php echo base_url(); ?>assets/images/<?php echo $be->image; ?>" alt="Card image cap">
+            <div class="konten1">
+                <img src="<?php echo base_url(); ?>assets/image/<?php echo $be->image; ?>" alt="Card image cap">
                 <h3 class="mb-0">
-                    <a class="text-dark" href="" ><?php echo $be->nama_beasiswa; ?></a>
+                    <a class="text-dark" href="<?php echo base_url() ?>beasnext"><?php echo $be->nama_beasiswa; ?></a>
                 </h3>
                 <div class="mb-1 text-muted"><?php echo $be->Tanggal; ?></div>
-                <p class="card-text mb-auto"><?php echo word_limiter( $be->profile,20); ?></p>
+                <p class="card-text mb-auto"><?php echo word_limiter( $be->profile,7); ?></p>
             </div>
     <?php endforeach; ?>
-
+</div>
 </body>
 </html>
