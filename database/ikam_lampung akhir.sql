@@ -123,10 +123,73 @@ CREATE TABLE `hot_news` (
 -- Dumping data untuk tabel `hot news`
 --
 
-INSERT INTO `hot news` (`id_hot_news`, `judul`, `artikel`, `image`, `tanggal`) VALUES
-(601, 'Karvien Harumkan Nama Unila Diajang KMI', 'http://lampung.tribunnews.com/2018/11/12/karvien-harumkan-nama-unila-diajang-kmi', 'Karvien Unila', '2018-11-21'),
-(602, 'POLINELA Menggelar Lokakarya MagisterTerapan', 'http://polinela.ac.id/index.php?option=com_content&view=article&id=534:polinela-menggelar-lokakarya-kurikulum-magister-terapan&catid=8&Itemid=165', 'berita1', '2018-11-20'),
-(603, 'Gandeng Peneliti Berpengalaman Itera Gelar FGD', 'http://lampung.tribunnews.com/2018/11/07/gandeng-peneliti-berpengalaman-itera-gelar-fgd-perumusan-center-of-excellence', 'Itera', '2018-11-07');
+INSERT INTO `hot_news` (`id_hot_news`, `judul`, `artikel`, `image`, `tanggal`) VALUES
+(601, 'Karvien Harumkan Nama Unila Diajang KMI', 'TRIBUNLAMPUNG.CO.ID, BANDAR LAMPUNG - Mahasiswa Universitas Lampung (Unila) berhasil membanggakan Unila di ajang Kewirausahaan Mahasisiwa Indonesia (KMI) Kemenristek Dikti.
+
+Karvien salah satu tim pemenang lomba KMI saat diwawancarai di Gedung CCED Unila, Senin (12/11) mengatakan dirinya bersama dua rekannya mampu mengalahkan ratusan kampus yang mengikuti lomba ini.
+
+Baca: Arinal Bakal Bangun Lapangan Golf di Bakauheni
+
+
+Tiga orang dalam satu timnya, dia bersama rekannya Ali Alhanif dan Eka Irawati yang membuat mensukseskan prestasi ini.
+
+"Senang lah kak, dapat juara," ujarnya.
+
+Ditambahkan oleh Albet Maydiantoro selaku Kepala Divisi Kewirausahaan dan Inkubator Bisnis CCED Unila mengatakan kegiatan KMI itu untuk memberikan apresiasi kepada mahasiswa yang berwirausaha di Indonesia.
+
+KMI ini telah digelar sebanyak 9 kalinya dengan tuan rumah tahun ini IPB, dari empat tim hanya satu dua tim yang mampu mengangkat piala.
+
+Diantaranya kategori Industri Makanan dan Minuman dengan Usaha ""Vanana Chips" yang diketuai oleh Karvien mendapatkan juara pertama.
+
+Lalu kategori stand tidak juga didapatkan oleh tim ini, mereka ini semua binaan dari CCED (Center for Career and Entrepreneurship Development) Unila.
+
+Mereka mampu meraih poin tertinggi disusul oleh UGM sebagai terbaik II dan Sekolah Tinggi PGRI Dewantara sebagai terbaik III.
+
+"Prestasi ini merupakan hasil maksimal berkat kerja keras seluruh tim mahasiswa wirausaha dan para pendamping yang telah mempersiapkan dari tiga bulan lalu," katanya
+
+Hal ini sesuatu yang luar biasa sehingga Unila dapat memberikan kontribusi prestasi bagi Unila dan Lampung.
+
+Sementara itu, Ayi Ahadiat Kepala CCED Unila mengatakan raihan prestasi yang telah diperoleh oleh seluruh tim sehingga diharapkan ini akan memacu pertumbuhan wirausaha-wirausaha baru di Unila.
+
+"Terima kasih pak rektor dan pimpinan Unila yang telah membantu kami untuk menggapai prestasi dan membanggakan Unila dikancah nasional," katanya.
+
+
+CCED Unila akan terus memotivasi dan mendorong para wirausaha mahasiswa Unila untuk terus mengembangkan bisnisnya.
+
+Sehingga kelak nantinya ketika menjadi alumni tidak hanya mencari kerja namun dapat membuka lapangan kerja bagi orang lain.(byu)
+
+
+
+Artikel ini telah tayang di tribunlampung.co.id dengan judul Karvien Harumkan Nama Unila Diajang KMI, http://lampung.tribunnews.com/2018/11/12/karvien-harumkan-nama-unila-diajang-kmi.
+Penulis: Bayu Saputra	
+Editor: Reny Fitriani', 'Karvien Unila', '2018-11-21'),
+(602, 'POLINELA Menggelar Lokakarya MagisterTerapan', 'Sabtu, 17/11/2018, Politeknik Negeri Lampung berencana membuka program Magister Terapan Ketahanan Pangan sebagai upaya menghasilkan lulusan yang memiliki “skill dan knowledge” terapan bidang ketahanan pangan.
+
+ 
+
+Sebagai upaya mewujudkan impian tersebut, Polinela menggelar acara lokakarya kurikulum magister terapan di ruang sidang gedung A kampus Politeknik Negeri Lampung (11/17). Kegiatan ini diharapkan mampu meningkatkan kualitas dokumen usulan program Magister Terapan Ketahanan Pangan yang sedang diajukan ke Badan Akreditasi Nasional Perguruan Tinggi (BAN-PT) di Jakarta pada tahun 2018 ini.
+
+ 
+
+Acara lokakarya kurikulum dibuka oleh pimpinan Politeknik Negeri Lampung yang diwakili oleh Pembantu Direktur III Ir. Beni Hidayat, Msi. “Saat ini Polinela memiliki 19 Program Studi, 11 Prodi D3 dan 8 Prodi D4. Diharapkan dengan adanya prodi Magister Terapan ini mampu menambah jumlah Prodi sehingga Polinela memiliki program setara dengan S2”, ungkap Pudir III Polinela. Hadir dalam acara ini pula, Kajur Budidaya Tanaman Pangan, Kajur Perkebunan, Kajur Peternakan dan Kajur Ekonomi dan Bisnis, serta 14 Doktor yang dimiliki Polinela.
+
+ 
+
+Narasumber yang dihadirkan adalah Dr. Abimanyu Dipo Nusantara seorang tim reviewer pendirian Prodi Magister Terapan Politeknik se-Indonesia. “Dalam pendirian program Magister Terapan, hal-hal yang harus dipenuhi adalah Teknologi, Produk, stake holder, serta produksi. Program Magister Terapan harus pula dipikirkan kearah mana program ini akan dibawa, dan memiliki keunikan tersendiri dibandingkan program Magister dari kampus-kampus lain”, kata Abimanyu. Beliau mengupas tuntas sendi-sendi utama penyusunan kurikulum program Magister Terapan berdasarkan instrument BAN-PT dan Kerangka Kualifikasi Nasional Indonesia (KKNI).', 'berita1', '2018-11-20'),
+(603, 'Gandeng Peneliti Berpengalaman Itera Gelar FGD', 'TRIBUNLAMPUNG.CO.ID, JATI AGUNG - Institut Teknologi Sumatera (Itera) menggelar FGD (Focus Group Discussion) perumusan center of excellence Itera.
+
+Pimpinan Itera diwakilkan Warek Bidang Non Akademik Itera Sukrasno dan dalam sambutannya dihadapan peserta FGD di aula kampus setempat, Rabu (7/11) mengatakan FGD ini menggandeng para peneliti berpengalaman.
+
+
+
+Artikel ini telah tayang di tribunlampung.co.id dengan judul Gandeng Peneliti Berpengalaman, Itera Gelar FGD Perumusan Center of Excellence, http://lampung.tribunnews.com/2018/11/07/gandeng-peneliti-berpengalaman-itera-gelar-fgd-perumusan-center-of-excellence.
+Penulis: Bayu Saputra	
+Editor: Reny Fitriani Sehingga harapannya FGD ini juga menjadi yang tepat untuk Itera sehingga berdampak kepada wilayah Sumatera.
+
+
+Artikel ini telah tayang di tribunlampung.co.id dengan judul Gandeng Peneliti Berpengalaman, Itera Gelar FGD Perumusan Center of Excellence, http://lampung.tribunnews.com/2018/11/07/gandeng-peneliti-berpengalaman-itera-gelar-fgd-perumusan-center-of-excellence.
+Penulis: Bayu Saputra	
+Editor: Reny Fitriani', 'Itera', '2018-11-07');
 
 -- --------------------------------------------------------
 
