@@ -261,7 +261,7 @@ ALTER TABLE `bundel`
   MODIFY `id_soal` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20118021;
 
 --
--- AUTO_INCREMENT for table `hot news`
+-- AUTO_INCREMENT for table `hot_news`
 --
 ALTER TABLE `hot_news`
   MODIFY `id_hot_news` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=604;
