@@ -14,6 +14,9 @@
     width: 150px;
     background-image: unset;
 }
+.logo img{
+    height: 40px;
+}
 .nav{
     float: right;
 }
@@ -309,4 +312,6 @@ a{
 a:hover{
     color: gainsboro;
 }
-
+.probootstrap-media img{
+    margin-left: 30%;
+}
