@@ -9,7 +9,7 @@
           <div class="row">
             <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate">
               <a href="https://www.unila.ac.id/en/" class="probootstrap-featured-news-box">
-               <figure class="probootstrap-media"><img src="<?=base_url()?>assets/image/UNILA.png" class="img-responsive" width="20000" hight="8000"></figure>
+               <figure class="probootstrap-media"><img src="<?=base_url()?>assets/image/UNILA.png" class="img-responsive" width="20000px" hight="8000px"></figure>
                 <div class="probootstrap-text">
                   <h3>Universitas Lampung adalah universitas negeri pertama dan tertua di Provinsi Lampung, Indonesia.</h3>
                   <span href="https://www.unila.ac.id/en/">Lanjutkan membaca</span>
@@ -65,27 +65,25 @@
           </div>
         </div>
       </section>
-<div class="container marketing">
-
-    <!-- Three columns of text below the carousel -->
+<!-- <div class="container marketing">
     <div class="row">
         <div class="col-lg-4">
             <img class="fas fa-thumbs-up fa-5x" style="color: coral" data-aos="fade-up" alt="Generic placeholder image">
             <h2>TERPERCAYA</h2>
             <p>Informarsi yang disediakan di halaman ini 100% benar, nyata dan dapat dipercaya.</p>
-        </div><!-- /.col-lg-4 -->
+        </div>
         <div class="col-lg-4">
             <img class="fas fa-check-double fa-5x" style="color: coral" alt="Generic placeholder image">
             <h2>AKURAT</h2>
             <p>Informasi yang disediakan di halaman ini benar-benar tepat.</p>
-        </div><!-- /.col-lg-4 -->
+        </div>
         <div class="col-lg-4">
             <img class="fas fa-star fa-5x" style="color: coral" alt="Generic placeholder image">
             <h2>TERBARU</h2>
             <p>Halaman ini akan menyediakan informasi terbaru, hangat, dan tidak ketinggalan zaman.</p>
-        </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
-</div>
+        </div>
+    </div>
+</div> -->
 
 <div class="container jdul">
   <h2> <strong> HOT NEWS</strong></h2>
