@@ -9,7 +9,7 @@ class Model_ikam extends CI_Model {
 		return $data = $this->db->get('kampus');
 	}
 	function getHotNews(){
-		return $data = $this->db->get('hot_news');
+		return $data = $this->db->get($table)->result();
 	}
 	function ambil($param_id, $id, $table)
 	{
