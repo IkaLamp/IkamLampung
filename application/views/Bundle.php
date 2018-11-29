@@ -6,10 +6,10 @@
          <a href="<?php echo base_url('tkpa');?>"> <H1>TKPA</H1></a>
      </div>
      <div id="soshum">
-         <a href="#"><H1>Soshum</H1></a>
+         <a href="<?php echo base_url('soshum');?>"><H1>Soshum</H1></a>
      </div>
      <div id="saintek">
-         <a href="#"><H1>Saintek</H1></a>
+         <a href="<?php echo base_url('saintek');?>"><H1>Saintek</H1></a>
      </div>
  </div>
 
