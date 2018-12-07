@@ -39,7 +39,6 @@ CREATE TABLE `admin` (
 
 INSERT INTO `admin` (`username`, `password`) VALUES
 ('admin', 'admin'),
-('admin', 'admin');
 
 -- --------------------------------------------------------
 
